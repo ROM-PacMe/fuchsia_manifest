@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote   name="fuchsia"
+            fetch="https://fuchsia.googlesource.com/"
+            review=".." />
+            
+  <remote   name=""github"
+            fetch="https://github.com/"
+            review=".."/>
+            
+  <default revision="master"
+           remote="fuchsia"
+           sync-j="4" />
+           
+<!-- All build things -->           
+<project name="build" path="build" />
+<project name="buildtools" path="buildtools" />
+<project name="cobalt" path="cobalt" />
+<project name="docs" path="docs" />
+<project name="scripts" path"scripts">
+  <linkfile src="devshell/lib/add_symlink_to_bin.sh" dest="add_symlink_to_bin.sh" />
+</project>
+
+<!-- third_party complements -->
+<project name="third_party/cairo" path="third_party/cairo" />
+<project name="third_party/cargo-vendor" path="third_party/rust-mirrors/cargo-vendor" />
+<project name="third_party/gdb" path="third_party/gdb" />
+<project name="third_party/glfw" path="third_party/glfw" />
+<project name="third_party/go" path="third_party/go" />
+<project name="third_party/googletest" path="third_party/googletest" />
+<project name="third_party/mako" path="third_party/mako" />
+<project name="third_party/pyyaml" path="third_party/pyyaml" />
+<project name="third_party/pytoml" path="third_party/pytoml" />
+<project name="third_party/rust-crates" path="third_party/rust-crates" />
+<project name="third_party/mio" path="third_party/rust-mirrors/mio" />
+<project name="third_party/pixman" path="third_party/pixman" />
+<project name="third_party/tokio-core" path="third_party/rust-mirrors/tokio-core" />
+<project name="third_party/rust-mirrors/rand" path="third_party/rust-mirrors/rand" />
+
+<!-- Infra Complements -->
+<project name="infra/config" path="infra/config" />
+<project name="infra/recipes" path="infra/recipes" />
+
+<!-- Jiri Complements -->
+<project name="jiri" path="go/src/fuchsia.googlesource.com/jiri"
+<project name="jiri/third_party/git2go" path="go/src/fuchsia.googlesource.com/jiri/vendor/github.com/libgit2/git2go" />
+
+</manifest>
