@@ -1,5 +1,4 @@
 # FuchsiaOS Repo Manifest
--------------------------
 
 this repo is to download the source of Fuchsia OS in a simpler way
 
