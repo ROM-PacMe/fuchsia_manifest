@@ -22,6 +22,10 @@
 <project name="scripts" path"scripts">
   <linkfile src="devshell/lib/add_symlink_to_bin.sh" dest="add_symlink_to_bin.sh" />
 </project>
+<project name="zircon" path="zircon" />
+<project name="peridot" path="peridot" />
+<project name="topaz" path="topaz" />
+<project name="garnet" path="garnet" />                                  
 
 <!-- third_party complements -->
 <project name="third_party/cairo" path="third_party/cairo" />
@@ -66,5 +70,15 @@
 <project name="packages" path"packages" />
 <project name="third_party/binutils-gdb" path="third_party_binutils-gdb" />
 <project name="third_party/gcc_none_toolchains" path="third_party/gcc_none_toolchains" />
+<project name="third_party/gdb" path="third_party/gdb" />
+<project name="third_party/llvm" path="third_party/llvm" />
+<project name="third_partyclang" path="third_party/llvm/tools/clang" />
+<project name="third_party/lld" path="third_party/llvm/tools/lld" />
+<project name="third_party/compiler-rt" path="third_party/llvm/runtimes/compiler-rt" />
+<project name="third_party/libcxx" path="third_party/llvm/runtimes/libcxx" />
+<project name="third_party/libcxxabi" path="third_party/llvm/runtimes/libcxxabi" />
+<project name="third_party/libunwind" path="third_party/llvm/runtimes/libunwind" />
+<project name="third_party/make" path="third_party/make" />
+                                                        
 
 </manifest>
