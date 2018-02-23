@@ -63,7 +63,7 @@
 <project name="sdl" path="third_party/qemu/sdl" />
                                                
 <!-- SDK Complements -->
-<project name="packages" path"packages" />
+<project name="packages" path="packages" />
 <project name="third_party/binutils-gdb" path="third_party_binutils-gdb" />
 <project name="third_party/gcc_none_toolchains" path="third_party/gcc_none_toolchains" />
 <project name="third_party/gdb" path="third_party/gdb" />
