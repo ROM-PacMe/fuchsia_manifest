@@ -44,7 +44,7 @@
 <project name="infra/recipes" path="infra/recipes" />
 
 <!-- Jiri Complements -->
-<project name="jiri" path="go/src/fuchsia.googlesource.com/jiri"
+<project name="jiri" path="go/src/fuchsia.googlesource.com/jiri" />
 <project name="jiri/third_party/git2go" path="go/src/fuchsia.googlesource.com/jiri/vendor/github.com/libgit2/git2go" />
 <project name="jiri/third_party/boringssl" path="go/src/fuchsia.googlesource.com/jiri/vendor/github.com/libgit2/git2go/vendor/boringssl" revision="438229a8d724058cb4de1af6814204f03ce734ed" />
 <project name="jiri/third_party/curl" path="go/src/fuchsia.googlesource.com/jiri/vendor/github.com/libgit2/git2go/vendor/curl" revision="280e8c6e371ebd0f2e0a907e016ab44d6c9549af" />
