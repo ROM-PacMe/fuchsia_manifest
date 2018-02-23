@@ -5,10 +5,6 @@
             fetch="https://fuchsia.googlesource.com/"
             review=".." />
             
-  <remote   name=""github"
-            fetch="https://github.com/"
-            review=".."/>
-            
   <default revision="master"
            remote="fuchsia"
            sync-j="4" />
