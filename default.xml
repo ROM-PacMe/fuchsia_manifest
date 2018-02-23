@@ -15,7 +15,7 @@
 <project name="cobalt" path="cobalt" />
 <project name="docs" path="docs" />
 <project name="manifest" path="manifest" />
-<project name="scripts" path"scripts">
+<project name="scripts" path="scripts">
   <linkfile src="devshell/lib/add_symlink_to_bin.sh" dest="add_symlink_to_bin.sh" />
 </project>
 <project name="zircon" path="zircon" />
